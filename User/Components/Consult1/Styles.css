@@ -1,0 +1,17 @@
+.swiper {
+    width: 80%;
+  height: fit-content;
+
+  gap: 2vw;
+  
+  }
+  .swiper-wrapper{
+    width: 80%;
+    
+  }
+  .swiper-slide {
+    text-align: center;
+ height: 35vh;
+ display: flex;
+
+}
