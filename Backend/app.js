@@ -2,7 +2,7 @@ require("dotenv").config({ path: "./.env" });
 const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
-const allowedOrigins = ["http://localhost:3000", "http://localhost:3001","http://localhost:3002"];
+const allowedOrigins = ["http://localhost:3000", "http://localhost:3001","http://localhost:3002" ,"https://mediensure.in"];
 // const  SariskaMediaTransport =  require("sariska-media-transport");
 
 // SariskaMediaTransport.initialize();
