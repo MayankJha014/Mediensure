@@ -6,11 +6,11 @@ import { useDispatch, useSelector } from "react-redux";
 import ConsultationPin from "./ConsultationPin";
 import Nav from "@/Components/Nav/Nav";
 
-export async function getStaticProps(context) {
-  return {
+/**export async function getStaticProps(context) {
+return {
     props: { page }, // will be passed to the page component as props
   };
-}
+}**/
 
 const page = () => {
   const { pincode } = useParams();
