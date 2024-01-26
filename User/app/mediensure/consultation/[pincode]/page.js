@@ -31,3 +31,9 @@ const page = () => {
 };
 
 export default page;
+
+export async function getInitialProps(context) {
+  return {
+    props: { page }, // will be passed to the page component as props
+  };
+}
