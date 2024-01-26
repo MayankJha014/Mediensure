@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  mediensure-front-end:
+    container_name: mediensure-front-end
+    image: mediensure-front-end
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    entrypoint: [ "pm2-runtime", "start", "npm", "--", "start" ]
+    networks:
+      - api-network
+networks:
+  api-network:
+    external: true
