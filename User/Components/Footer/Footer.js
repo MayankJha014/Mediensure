@@ -120,27 +120,29 @@ const Footer = () => {
                 Useful links
               </h6>
               <p class="mb-4">
-                <a
-                  href="/Refunds_&_Cancellations_Policy.docx"
+                <Link
                   class="text-neutral-600 dark:text-neutral-200"
+                  href={"/refund"}
                 >
                   Refund & Cancellations
-                </a>
+                </Link>
               </p>
               <p class="mb-4">
-                <a
-                  href="/Terms_and_Condition.docx"
+                <Link
                   class="text-neutral-600 dark:text-neutral-200"
+                  href={"/terms"}
                 >
                   Terms & Conditions
-                </a>
+                </Link>
               </p>
               <p class="mb-4">
-                <a
-                  href="/Privacy_Policy.docx"
-                  class="text-neutral-600 dark:text-neutral-200"
-                >
-                  Privacy Policy
+                <a>
+                  <Link
+                    class="text-neutral-600 dark:text-neutral-200"
+                    href={"/privacy"}
+                  >
+                    Privacy Policy
+                  </Link>
                 </a>
               </p>
               {/* <p>
